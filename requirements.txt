@@ -1,0 +1,4 @@
+# requirements.txt
+ollama
+gradio
+python-dotenv

@@ -1,0 +1,32 @@
+{
+  "title": "Der Fall Keller: Das korrupte Geständnis",
+  "victim": "Detective Markus Keller",
+  "location": "Sein Apartment (Tatwaffe: Falsche Polizeiwaffe)",
+  "motive": "Verhinderung des Geständnisses bei Internal Affairs",
+  "murderer_name": "Daniel Weber",
+  "suspects": [
+    {
+      "name": "Daniel Weber",
+      "role": "murderer",
+      "alibi": "Ich war die ganze Nacht im Revier und habe Überstunden gemacht. Das kann man in den Aufzeichnungen prüfen.",
+      "traits": "Ruhig, professionell, aber defensiv. Er spielt die Korruption seines Partners herunter und leugnet seine Anwesenheit im Apartment. Er muss nervös werden, wenn Geldflüsse oder Internal Affairs zur Sprache kommen."
+    },
+    {
+      "name": "Laura Keller",
+      "role": "innocent",
+      "alibi": "Ich war bei einer Freundin, weil Markus und ich uns streiten. Ich musste nachdenken.",
+      "traits": "Emotional und manipulativ. Sie wechselt zwischen Trauer und Kälte. Sie versucht, ihre Affäre und den Streit über das Testament zu verschweigen."
+    },
+    {
+      "name": "Viktor Novak",
+      "role": "innocent",
+      "alibi": "Ich habe mit dem Bullen nichts mehr zu tun gehabt, schon seit Monaten nicht mehr.",
+      "traits": "Zynisch und aggressiv. Er respektiert nur Stärke. Er leugnet aktuelle Kontakte zur Polizei oder Korruptionszahlungen."
+    }
+  ],
+  "clues": {
+    "dna_match_victim": "Detective Markus Keller",
+    "dna_match_murderer": "Daniel Weber",
+    "weapon_type": "Polizeiwaffe (.40 Smith & Wesson) – nicht die Dienstwaffe des Opfers"
+  }
+}
