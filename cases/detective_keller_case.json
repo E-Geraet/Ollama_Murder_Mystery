@@ -1,0 +1,56 @@
+{
+  "case_name": "Der Fall Detective Keller",
+  "victim": "Markus Keller",
+  "location": "Kellers Büro, Innenstadt",
+  "motive": "Erpressung und finanzielle Streitigkeiten",
+  "time_of_death": "22:30 Uhr",
+  "murder_weapon": "Pistole (Kaliber 9mm)",
+  "murderer_name": "Daniel Weber",
+  
+  "suspects": [
+    {
+      "name": "Daniel Weber",
+      "age": 34,
+      "occupation": "Geschäftspartner von Markus Keller",
+      "alibi": "Ich war zu Hause und habe ferngesehen. Meine Frau war bereits schlafen gegangen, daher kann sie das nicht bestätigen.",
+      "traits": "Nervös, ausweichend, ungeduldig. Hat finanzielle Probleme und wurde von Keller unter Druck gesetzt.",
+      "secrets": "War tatsächlich am Tatort. Hat Keller erschossen, weil dieser drohte, ihre gemeinsamen Geschäftsunterlagen an die Polizei zu übergeben (Steuerhinterziehung)."
+    },
+    {
+      "name": "Sarah Müller",
+      "age": 29,
+      "occupation": "Kellers Ex-Freundin",
+      "alibi": "Ich war in einer Bar mit Freunden bis 23:00 Uhr. Die Barkeeperin kann das bestätigen.",
+      "traits": "Emotional, impulsiv, aber ehrlich. Hatte eine turbulente Beziehung mit Keller.",
+      "secrets": "Hatte Streit mit Keller am Vortag wegen unbezahlter Miete für ihre gemeinsame alte Wohnung. Ist aber unschuldig."
+    },
+    {
+      "name": "Thomas Klein",
+      "age": 42,
+      "occupation": "Nachbar von Markus Keller",
+      "alibi": "Ich war die ganze Nacht zu Hause. Ich habe um 22:00 Uhr laute Geräusche aus Kellers Büro gehört, aber ich dachte, es wäre ein Streit.",
+      "traits": "Ruhig, beobachtend, vorsichtig. Wirkt manchmal verdächtig, weil er sehr detailliert berichtet.",
+      "secrets": "Hat tatsächlich etwas gesehen: Eine Person (Daniel Weber) verließ gegen 22:45 Uhr hastig das Gebäude, aber Thomas erkannte ihn nicht im Dunkeln."
+    }
+  ],
+  
+  "evidence": [
+    {
+      "item": "Pistole",
+      "description": "9mm Pistole am Tatort gefunden, keine Fingerabdrücke (Handschuhe verwendet)",
+      "relevance": "Tatwaffe, aber keine direkten Spuren zum Täter"
+    },
+    {
+      "item": "Geschäftsunterlagen",
+      "description": "Dokumente über Steuerhinterziehung im Safe von Keller",
+      "relevance": "Motiv für Daniel Weber, Keller zum Schweigen zu bringen"
+    },
+    {
+      "item": "Überwachungskamera",
+      "description": "Kamera im Hausflur zeigt verschwommene Gestalt um 22:40 Uhr",
+      "relevance": "Bestätigt, dass jemand zur Tatzeit dort war, aber Gesicht nicht erkennbar"
+    }
+  ],
+  
+  "investigation_notes": "Der Detective muss herausfinden, dass Daniel Webers Alibi nicht wasserdicht ist. Sein nervöses Verhalten und die Tatsache, dass er keine Zeugen hat, machen ihn verdächtig. Thomas Kleins Aussage über die flüchtende Person ist der Schlüssel. Sarah Müllers Alibi ist solide."
+}
